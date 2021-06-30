@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens</title>
+    <style>
+        body {
+            background-color: rgba(128, 128, 128, 0.904);
+        }
+        main {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+           text-align: center;
+           font-family: Arial, Helvetica, sans-serif;
+           color: white;
+           text-shadow: 2px 2px 5px black;
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            color: white;
+            background-color: green;
+            border-radius: 100px;
+            box-shadow: 2px 2px 5px black;
+            font-weight: bolder;
+        }
+        button:hover {
+            cursor: pointer;
+        }  
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Desafio das Mensagens</h1>
+    </header>
+    <main>
+        <button onclick="clique1()">Botão 1</button>
+        <button onclick="clique2()">Botão 2</button>
+        <button onclick="clique3()">Botão 3</button>
+    </main>
+</body>
+<script>
+    function clique1() {
+        window.alert('Você clicou no 1° botão!')
+    }
+    function clique2() {
+        window.alert('Você clicou no 2° botão!')
+    }
+    function clique3() {
+        window.alert('Você clicou no 3° botão!')
+    }
+</script>
+</html>
